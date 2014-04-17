@@ -1,0 +1,20 @@
+PODS:
+  - Haneke (0.0.5)
+  - libextobjc/EXTScope (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4)
+  - Mantle (1.4.1):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.4.1)
+
+DEPENDENCIES:
+  - Haneke (~> 0.0.5)
+  - libextobjc/EXTScope (~> 0.3)
+  - Mantle (~> 1.4.1)
+
+SPEC CHECKSUMS:
+  Haneke: 34087f62b25a9b6502fefe934bc258dab94233b4
+  libextobjc: 2c9fc8226f0f38e562587f65172f93f0c9b4a47a
+  Mantle: 0714cdb2b8559d9e6c2410d6a8529e3307bff189
+
+COCOAPODS: 0.29.0

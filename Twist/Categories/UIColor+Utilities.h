@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIColor+Utilities.h
 //  Twist
 //
 //  Created by Peter Kovacs on 20/03/14.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIColor (Utilities)
+
++ (UIColor *)primaryColor;
++ (UIColor *)secondaryColor6;
 
 @end

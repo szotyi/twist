@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		119C9ADB18DB463E00AC4CAD /* UIColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 119C9ADA18DB463E00AC4CAD /* UIColor+Utilities.m */; };
+		119C9ADC18DB463E00AC4CAD /* UIColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 119C9ADA18DB463E00AC4CAD /* UIColor+Utilities.m */; };
 		11C0A5E818DAE8C700B18959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C0A5E718DAE8C700B18959 /* Foundation.framework */; };
 		11C0A5EA18DAE8C700B18959 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C0A5E918DAE8C700B18959 /* CoreGraphics.framework */; };
 		11C0A5EC18DAE8C700B18959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C0A5EB18DAE8C700B18959 /* UIKit.framework */; };
@@ -14,13 +16,27 @@
 		11C0A5F418DAE8C700B18959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C0A5F318DAE8C700B18959 /* main.m */; };
 		11C0A5F818DAE8C700B18959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C0A5F718DAE8C700B18959 /* AppDelegate.m */; };
 		11C0A5FB18DAE8C700B18959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C0A5F918DAE8C700B18959 /* Main.storyboard */; };
-		11C0A5FE18DAE8C700B18959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C0A5FD18DAE8C700B18959 /* ViewController.m */; };
 		11C0A60018DAE8C700B18959 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C0A5FF18DAE8C700B18959 /* Images.xcassets */; };
 		11C0A60718DAE8C700B18959 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C0A60618DAE8C700B18959 /* XCTest.framework */; };
 		11C0A60818DAE8C700B18959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C0A5E718DAE8C700B18959 /* Foundation.framework */; };
 		11C0A60918DAE8C700B18959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C0A5EB18DAE8C700B18959 /* UIKit.framework */; };
 		11C0A61118DAE8C700B18959 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11C0A60F18DAE8C700B18959 /* InfoPlist.strings */; };
 		11C0A61318DAE8C700B18959 /* TwistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C0A61218DAE8C700B18959 /* TwistTests.m */; };
+		11C0A62618DAECF600B18959 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C0A62518DAECF600B18959 /* Tweet.m */; };
+		11C0A62718DAECF600B18959 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C0A62518DAECF600B18959 /* Tweet.m */; };
+		11C0A62A18DAED6F00B18959 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C0A62918DAED6F00B18959 /* User.m */; };
+		11C0A62B18DAED6F00B18959 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C0A62918DAED6F00B18959 /* User.m */; };
+		11FF17B118DAF443009CE45F /* TwistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF17B018DAF443009CE45F /* TwistTableViewController.m */; };
+		11FF17B218DAF443009CE45F /* TwistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF17B018DAF443009CE45F /* TwistTableViewController.m */; };
+		11FF17B618DAF57C009CE45F /* TwistTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF17B518DAF57C009CE45F /* TwistTableViewCell.m */; };
+		11FF17B718DAF57C009CE45F /* TwistTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF17B518DAF57C009CE45F /* TwistTableViewCell.m */; };
+		11FF17BA18DAF71B009CE45F /* TweetListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF17B918DAF71B009CE45F /* TweetListService.m */; };
+		11FF17BB18DAF71B009CE45F /* TweetListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF17B918DAF71B009CE45F /* TweetListService.m */; };
+		11FF17BE18DAF9C7009CE45F /* TwitterAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF17BD18DAF9C7009CE45F /* TwitterAPIManager.m */; };
+		11FF17BF18DAF9C7009CE45F /* TwitterAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF17BD18DAF9C7009CE45F /* TwitterAPIManager.m */; };
+		11FF17C318DB1A3B009CE45F /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF17C218DB1A3B009CE45F /* NSDate+Utilities.m */; };
+		11FF17C418DB1A3B009CE45F /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF17C218DB1A3B009CE45F /* NSDate+Utilities.m */; };
+		933E2E88F97143E69D76000B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE372CB904B4D5385D75502 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		119C9AD518DB259200AC4CAD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		119C9AD718DB259600AC4CAD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		119C9AD918DB463E00AC4CAD /* UIColor+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utilities.h"; sourceTree = "<group>"; };
+		119C9ADA18DB463E00AC4CAD /* UIColor+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utilities.m"; sourceTree = "<group>"; };
 		11C0A5E418DAE8C700B18959 /* Twist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C0A5E718DAE8C700B18959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		11C0A5E918DAE8C700B18959 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +65,28 @@
 		11C0A5F618DAE8C700B18959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11C0A5F718DAE8C700B18959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		11C0A5FA18DAE8C700B18959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		11C0A5FC18DAE8C700B18959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		11C0A5FD18DAE8C700B18959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		11C0A5FF18DAE8C700B18959 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		11C0A60518DAE8C700B18959 /* TwistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C0A60618DAE8C700B18959 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		11C0A60E18DAE8C700B18959 /* TwistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwistTests-Info.plist"; sourceTree = "<group>"; };
 		11C0A61018DAE8C700B18959 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11C0A61218DAE8C700B18959 /* TwistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwistTests.m; sourceTree = "<group>"; };
+		11C0A62418DAECF600B18959 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		11C0A62518DAECF600B18959 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		11C0A62818DAED6F00B18959 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		11C0A62918DAED6F00B18959 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		11FF17AF18DAF443009CE45F /* TwistTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwistTableViewController.h; sourceTree = "<group>"; };
+		11FF17B018DAF443009CE45F /* TwistTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwistTableViewController.m; sourceTree = "<group>"; };
+		11FF17B418DAF57C009CE45F /* TwistTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwistTableViewCell.h; sourceTree = "<group>"; };
+		11FF17B518DAF57C009CE45F /* TwistTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwistTableViewCell.m; sourceTree = "<group>"; };
+		11FF17B818DAF71B009CE45F /* TweetListService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetListService.h; sourceTree = "<group>"; };
+		11FF17B918DAF71B009CE45F /* TweetListService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetListService.m; sourceTree = "<group>"; };
+		11FF17BC18DAF9C7009CE45F /* TwitterAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAPIManager.h; sourceTree = "<group>"; };
+		11FF17BD18DAF9C7009CE45F /* TwitterAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAPIManager.m; sourceTree = "<group>"; };
+		11FF17C118DB1A3B009CE45F /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		11FF17C218DB1A3B009CE45F /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		2F4B7396567240E9957B294C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		4EE372CB904B4D5385D75502 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +97,7 @@
 				11C0A5EA18DAE8C700B18959 /* CoreGraphics.framework in Frameworks */,
 				11C0A5EC18DAE8C700B18959 /* UIKit.framework in Frameworks */,
 				11C0A5E818DAE8C700B18959 /* Foundation.framework in Frameworks */,
+				933E2E88F97143E69D76000B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +121,7 @@
 				11C0A60C18DAE8C700B18959 /* TwistTests */,
 				11C0A5E618DAE8C700B18959 /* Frameworks */,
 				11C0A5E518DAE8C700B18959 /* Products */,
+				2F4B7396567240E9957B294C /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +137,13 @@
 		11C0A5E618DAE8C700B18959 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				119C9AD718DB259600AC4CAD /* Accounts.framework */,
+				119C9AD518DB259200AC4CAD /* Social.framework */,
 				11C0A5E718DAE8C700B18959 /* Foundation.framework */,
 				11C0A5E918DAE8C700B18959 /* CoreGraphics.framework */,
 				11C0A5EB18DAE8C700B18959 /* UIKit.framework */,
 				11C0A60618DAE8C700B18959 /* XCTest.framework */,
+				4EE372CB904B4D5385D75502 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,9 +153,12 @@
 			children = (
 				11C0A5F618DAE8C700B18959 /* AppDelegate.h */,
 				11C0A5F718DAE8C700B18959 /* AppDelegate.m */,
-				11C0A5F918DAE8C700B18959 /* Main.storyboard */,
-				11C0A5FC18DAE8C700B18959 /* ViewController.h */,
-				11C0A5FD18DAE8C700B18959 /* ViewController.m */,
+				11FF17C018DB1A15009CE45F /* Categories */,
+				11C0A61C18DAE9B300B18959 /* Controllers */,
+				11C0A61D18DAE9BB00B18959 /* Model */,
+				11C0A61F18DAE9CF00B18959 /* Services */,
+				11FF17B318DAF552009CE45F /* Widgets */,
+				11C0A61E18DAE9C200B18959 /* Views */,
 				11C0A5FF18DAE8C700B18959 /* Images.xcassets */,
 				11C0A5EE18DAE8C700B18959 /* Supporting Files */,
 			);
@@ -152,6 +194,65 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		11C0A61C18DAE9B300B18959 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11FF17AF18DAF443009CE45F /* TwistTableViewController.h */,
+				11FF17B018DAF443009CE45F /* TwistTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		11C0A61D18DAE9BB00B18959 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11C0A62418DAECF600B18959 /* Tweet.h */,
+				11C0A62518DAECF600B18959 /* Tweet.m */,
+				11C0A62818DAED6F00B18959 /* User.h */,
+				11C0A62918DAED6F00B18959 /* User.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11C0A61E18DAE9C200B18959 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11C0A5F918DAE8C700B18959 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		11C0A61F18DAE9CF00B18959 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11FF17B818DAF71B009CE45F /* TweetListService.h */,
+				11FF17B918DAF71B009CE45F /* TweetListService.m */,
+				11FF17BC18DAF9C7009CE45F /* TwitterAPIManager.h */,
+				11FF17BD18DAF9C7009CE45F /* TwitterAPIManager.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		11FF17B318DAF552009CE45F /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				11FF17B418DAF57C009CE45F /* TwistTableViewCell.h */,
+				11FF17B518DAF57C009CE45F /* TwistTableViewCell.m */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		11FF17C018DB1A15009CE45F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				11FF17C118DB1A3B009CE45F /* NSDate+Utilities.h */,
+				11FF17C218DB1A3B009CE45F /* NSDate+Utilities.m */,
+				119C9AD918DB463E00AC4CAD /* UIColor+Utilities.h */,
+				119C9ADA18DB463E00AC4CAD /* UIColor+Utilities.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11C0A61618DAE8C700B18959 /* Build configuration list for PBXNativeTarget "Twist" */;
 			buildPhases = (
+				A6FF7E662BD84379BB98FFE6 /* Check Pods Manifest.lock */,
 				11C0A5E018DAE8C700B18959 /* Sources */,
 				11C0A5E118DAE8C700B18959 /* Frameworks */,
 				11C0A5E218DAE8C700B18959 /* Resources */,
+				E3968434617E4541AA78C457 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,14 +347,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A6FF7E662BD84379BB98FFE6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3968434617E4541AA78C457 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11C0A5E018DAE8C700B18959 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C0A5FE18DAE8C700B18959 /* ViewController.m in Sources */,
+				11C0A62A18DAED6F00B18959 /* User.m in Sources */,
+				11FF17BA18DAF71B009CE45F /* TweetListService.m in Sources */,
+				11FF17B618DAF57C009CE45F /* TwistTableViewCell.m in Sources */,
+				11C0A62618DAECF600B18959 /* Tweet.m in Sources */,
+				11FF17C318DB1A3B009CE45F /* NSDate+Utilities.m in Sources */,
 				11C0A5F818DAE8C700B18959 /* AppDelegate.m in Sources */,
 				11C0A5F418DAE8C700B18959 /* main.m in Sources */,
+				11FF17BE18DAF9C7009CE45F /* TwitterAPIManager.m in Sources */,
+				119C9ADB18DB463E00AC4CAD /* UIColor+Utilities.m in Sources */,
+				11FF17B118DAF443009CE45F /* TwistTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +403,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C0A61318DAE8C700B18959 /* TwistTests.m in Sources */,
+				11FF17BB18DAF71B009CE45F /* TweetListService.m in Sources */,
+				11FF17BF18DAF9C7009CE45F /* TwitterAPIManager.m in Sources */,
+				11FF17C418DB1A3B009CE45F /* NSDate+Utilities.m in Sources */,
+				11C0A62718DAECF600B18959 /* Tweet.m in Sources */,
+				11C0A62B18DAED6F00B18959 /* User.m in Sources */,
+				11FF17B218DAF443009CE45F /* TwistTableViewController.m in Sources */,
+				11FF17B718DAF57C009CE45F /* TwistTableViewCell.m in Sources */,
+				119C9ADC18DB463E00AC4CAD /* UIColor+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +524,7 @@
 		};
 		11C0A61718DAE8C700B18959 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4B7396567240E9957B294C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +538,7 @@
 		};
 		11C0A61818DAE8C700B18959 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4B7396567240E9957B294C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +609,7 @@
 				11C0A61818DAE8C700B18959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11C0A61918DAE8C700B18959 /* Build configuration list for PBXNativeTarget "TwistTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +618,7 @@
 				11C0A61B18DAE8C700B18959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
