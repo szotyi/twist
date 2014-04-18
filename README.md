@@ -47,6 +47,7 @@ A Twitter example app, developed for a *guesttalk* at [iOS update](http://www.it
 ####Color picker
 
 * https://www.panic.com/blog/developer-color-picker-1-5/
+* http://bjango.com/mac/skalacolor/ (http://bjango.com/help/skalacolor/gettingstarted/)
 
 ####Chisel
 
