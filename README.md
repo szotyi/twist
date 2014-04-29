@@ -25,6 +25,7 @@ A Twitter example app, developed for a *guesttalk* at [iOS update](http://www.it
 
 * http://documancer.com/xcode/
 * http://kapeli.com/dash
+* http://simpholders.com/
 
 ####Cocoapods
 
