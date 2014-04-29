@@ -1,9 +1,51 @@
 Twist
 =====
 
+##Table of contents:
+
+* [About](#about)
+* [Basic breakpoints](#basic-breakpoints)
+* [Basic groups](#basic-groups)
+* [Keyboard shortcuts](#keyboard-shortcuts)
+* [Links mentioned](#links-mentioned)
+
+##About
+
 A Twitter example app, developed for a *guesttalk* at [iOS update](http://www.itfactory.hu/Info/iosu) training
 
-##Links mentioned:
+##Basic breakpoints
+
+* *exceptions* all Objective-C
+* *symbolic* malloc_error_break
+* *symbolic* CGPostError
+* *symbolic* NSKVODeallocateBreak 
+
+##Basic groups
+
+* Controllers
+* Models
+* Services
+* Views
+* Widgets
+
+##Keyboard shortcuts
+
+*	**ctrl+cmd up/down**: move between header and source
+*	**ctr+cmd left/right**: move back and forward in history
+* **alt+cmd 0**: show/hide utilities
+* **cmd 0**: show/hide navigator
+*	**cmd+shift y**: show/hide debug area
+*	**cmd+shift o**: fast open (with alt opens in assistant editor, this is true for clicking in source also)
+*	**cmd+ctrl e**: edit all in scope
+*	**cmd+ctrl j**: jump to definition (same as cmd click)
+*	**cmd l**: go to line
+*	**cmd r**: run
+*	**cmd b**: build
+* **cmd+shift k**: clean
+*	**cmd .**: stop
+
+
+##Links mentioned
 
 ####Twitter
 
@@ -68,7 +110,7 @@ A Twitter example app, developed for a *guesttalk* at [iOS update](http://www.it
 * http://www.testflightapp.com/
 * http://hockeyapp.net/
 
-#####Code
+####Code
 
 * http://fuckingblocksyntax.com/
 * http://cocoa-dom.tumblr.com/post/56517731293/new-thing-i-do-in-code
