@@ -12,6 +12,7 @@ Twist
 ##About
 
 A Twitter example app, developed for a *guesttalk* at [iOS update](http://www.itfactory.hu/Info/iosu) training
+Open the **Twist.xcworkspace** not the xcodeproj!
 
 ##Basic breakpoints
 
